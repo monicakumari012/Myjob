@@ -38,7 +38,7 @@
                         <configuration>
                             <transformers>
                                 <transformer
-                                    implementation="org.apache.maven.plugins.compile.resource.ManifestResourceTransformer">
+                                    implementation="org.apache.maven.plugins.compiler.resource.ManifestResourceTransformer">
                                     <mainClass>hello.HelloWorld</mainClass>
                                 </transformer>
                             </transformers>
